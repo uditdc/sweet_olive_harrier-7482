@@ -1,4 +1,4 @@
-name = "template_name"
+name = "sweet_olive_harrier-7482"
 version = "1.0.0"
 
 [deployment]
@@ -7,10 +7,10 @@ nodes = 1
 
 [build]
 dir = "build"
-entry = "template_name_debug.wasm"
+entry = "sweet_olive_harrier-7482_debug.wasm"
 command = "npm run build:debug"
 
 [build_release]
 dir = "build"
-entry = "template_name.wasm"
+entry = "sweet_olive_harrier-7482.wasm"
 command = "npm run build:release"
