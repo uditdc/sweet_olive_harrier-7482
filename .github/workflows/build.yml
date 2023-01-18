@@ -20,6 +20,6 @@ jobs:
       - name: Blockless Action Setup
         uses: txlabs/github-action-blockless-setup@v0.0.5
         with:
-          BLOCKLESS_ENDPOINT_URL: https://dashboard.blockless.network
+          BLOCKLESS_ENDPOINT_URL: https://blockless.network
       - name: Blockless Function Publish
         uses: txlabs/github-action-blockless-deploy@v0.0.3
