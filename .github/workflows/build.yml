@@ -18,8 +18,6 @@ jobs:
           cat bls.toml
       - uses: stefanzweifel/git-auto-commit-action@v4
       - name: Blockless Action Setup
-        uses: txlabs/github-action-blockless-setup@v0.0.4
-        with:
-          BLOCKLESS_ACCESS_TOKEN: ${{ secrets.BLOCKLESS_ACCESS_TOKEN }}
+        uses: txlabs/github-action-blockless-setup@v0.0.5
       - name: Blockless Function Publish
         uses: txlabs/github-action-blockless-deploy@v0.0.3
